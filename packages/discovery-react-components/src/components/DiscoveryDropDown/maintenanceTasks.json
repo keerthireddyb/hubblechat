@@ -1,0 +1,538 @@
+{
+  "Lincoln": {
+    "Focal #1": [
+      {
+        "equipment": "Focal #1 Press & STP - section #3",
+        "description": "Schumaker 6087 2016 Manufacturing",
+        "tasks": {
+          "Daily": [
+            {
+              "task": "Verify that all the safety doors, safety gates and E-Stop button are working properly. All of these devices must relieve all of the stored energy inside the machine.",
+              "lastCompletedDate": ""
+            },
+            {
+              "task": "Verify main air pressure is set at 90 psi, and empty water trap. If water is getting caught in the main regulator's trap, then the upstream air is not dry enough. This problem must be resolved by installing drying equipment.",
+              "lastCompletedDate": ""
+            },
+            {
+              "task": "Check Grease on Dial Grippers and Slides, Station 2 Press posts, Station 2 Barrel Nest slide, Station 2 Dial gripper Open wedge Up/Down Slide, Station 3 Press posts. Station 4 Re-flatten Press slides. Oil or Grease slides via fittings if necessary.",
+              "lastCompletedDate": ""
+            },
+            {
+              "task": "Clean any debris of the inside of the machine and wipe down the machine with damp cloth with mild soap.",
+              "lastCompletedDate": ""
+            },
+            {
+              "task": "Check condition of pneumatic hoses and oiler lines. Replace immediately if ever damaged.",
+              "lastCompletedDate": ""
+            }
+          ],
+          "Monthly": [
+            {
+              "task": "Verify all flow controls are locked.",
+              "lastCompletedDate": "11/15/2023"
+            },
+            {
+              "task": "By hand, push and pull all pneumatic slides, cylinders, and grippers to make sure that they move smoothly and do not have excessive play. Replace any of the worn devices immediately.",
+              "lastCompletedDate": "11/15/2023"
+            },
+            {
+              "task": "Inspect stop bumpers and stop shocks, if worn or damaged replace immediately.",
+              "lastCompletedDate": "11/15/2023"
+            },
+            {
+              "task": "Clean and lube cylinder shafts.",
+              "lastCompletedDate": "11/15/2023"
+            },
+            {
+              "task": "Clean and lube gripper slides.",
+              "lastCompletedDate": "11/15/2023"
+            },
+            {
+              "task": "Clean and Inspect conveyor belts. Adjust tension as needed (see conveyor documentation).",
+              "lastCompletedDate": "11/15/2023"
+            }
+          ]
+        }
+      },
+      {
+        "equipment": "Focal #1 Cut/Chamfer - section#1",
+        "description": "Schumaker 6089 2016 Manufacturing",
+        "tasks": {
+          "Daily": [
+            {
+              "task": "Verify that all the safety doors, safety gates and E-Stop button are working properly. All of these devices must relieve all of the stored energy inside the machine. ",
+              "lastCompletedDate": ""
+            },
+            {
+              "task": "Verify main air pressure is set at 90 psi, and empty water trap. If water is getting caught in the main regulator’s trap, then the upstream air is not dry enough. This problem must be resolved by installing drying equipment. ",
+              "lastCompletedDate": ""
+            },
+            {
+              "task": "Verify that oil is present in tank of saw oiling system.",
+              "lastCompletedDate": ""
+            },
+            {
+              "task": "Clean any debris of the inside of the machine and wipe down the machine with damp cloth with mild soap.",
+              "lastCompletedDate": ""
+            },
+            {
+              "task": "Check condition of pneumatic hoses and oiler lines. Replace immediately if ever damaged.",
+              "lastCompletedDate": ""
+            },
+            {
+              "task": "Check chamfer head ways are wet with oil.",
+              "lastCompletedDate": ""
+            }
+          ],
+          "Monthly": [
+            {
+              "task": "Verify all flow controls are locked.",
+              "lastCompletedDate": "11/12/2023"
+            },
+            {
+              "task": "By hand, push and pull all pneumatic slides, cylinders, and grippers to make sure that they move smoothly and do not have excessive play. Replace any of the worn devices immediately.",
+              "lastCompletedDate": "11/12/2023"
+            },
+            {
+              "task": "Inspect stop bumpers and stop shocks, if worn or damaged replace immediately.",
+              "lastCompletedDate": "11/12/2023"
+            },
+            {
+              "task": "Clean and lube cylinder shafts.",
+              "lastCompletedDate": "11/12/2023"
+            },
+            {
+              "task": "Clean and lube gripper slides.",
+              "lastCompletedDate": "11/12/2023"
+            },
+            {
+              "task": "Clean and grease any THK rails and bearing blocks.",
+              "lastCompletedDate": "11/12/2023"
+            },
+            {
+              "task": "Clean and Inspect conveyor belts. Adjust tension as needed (see conveyor documentation)",
+              "lastCompletedDate": "11/12/2023"
+            },
+            {
+              "task": "Grease the two Zirk Fittings for the Tube Chamfer Clamp.",
+              "lastCompletedDate": "11/12/2023"
+            }
+          ]
+        }
+      },
+      {
+        "equipment": "Focal #1 Wash & Anneal - section #2",
+        "description": "Schumaker 6088 2016 Manufacturing",
+        "tasks": {
+          "Daily": [
+            {
+              "task": "Clean area at part stops between through beam sensors on the Conveyors.",
+              "lastCompletedDate": ""
+            },
+            {
+              "task": "Verify that all the safety doors, safety gates and E-Stop button are working properly. All of these devices must relieve all of the stored energy inside the machine.",
+              "lastCompletedDate": ""
+            },
+            {
+              "task": "Verify main air pressure is set at 90 psi, and empty water trap. If water is getting caught in the main regulator’s trap, then the upstream air is not dry enough. This problem must be resolved by installing drying equipment.",
+              "lastCompletedDate": ""
+            },
+            {
+              "task": "Check Lifts on Dial 2 for lift force less than 5 lbs. Oil or Grease THK slides via Zirk fittings if necessary.",
+              "lastCompletedDate": ""
+            },
+            {
+              "task": "Clean any debris of the inside of the machine and wipe down the machine with damp cloth with mild soap.",
+              "lastCompletedDate": ""
+            },
+            {
+              "task": "Check condition of pneumatic hoses and oiler lines. Replace immediately if ever damaged.",
+              "lastCompletedDate": ""
+            },
+            {
+              "task": "Check Soap Quantity in Tank",
+              "lastCompletedDate": ""
+            }
+          ],
+          "Monthly": [
+            {
+              "task": "Verify all flow controls are locked.",
+              "lastCompletedDate": "11/20/2023"
+            },
+            {
+              "task": "By hand, push and pull all pneumatic slides, cylinders, and grippers to make sure that they move smoothly and do not have excessive play. Replace any of the worn devices immediately.",
+              "lastCompletedDate": "11/20/2023"
+            },
+            {
+              "task": "Check the filters for the Wash, Rinse1, Rinse 2 and quench Tanks, Located under Dial 1 Table.",
+              "lastCompletedDate": "11/20/2023"
+            },
+            {
+              "task": "Inspect stop bumpers and stop shocks, if worn or damaged replace immediately.",
+              "lastCompletedDate": "11/20/2023"
+            },
+            {
+              "task": "Clean and lube cylinder shafts.",
+              "lastCompletedDate": "11/20/2023"
+            },
+            {
+              "task": "Clean and lube gripper slides.",
+              "lastCompletedDate": "11/20/2023"
+            },
+            {
+              "task": "Clean and grease any THK rails and bearing blocks.",
+              "lastCompletedDate": "11/20/2023"
+            },
+            {
+              "task": "Clean and Inspect conveyor belts. Adjust tension as needed (see conveyor documentation).",
+              "lastCompletedDate": "11/20/2023"
+            }
+          ]
+        }
+      },
+      {
+        "equipment": "Focal #1 Robot",
+        "description": "Epson Robot",
+        "tasks": {
+          "Daily": [
+            {
+              "task": "Visually inspect robot exterior for damage, check emergency stops.",
+              "lastCompletedDate": ""
+            },
+            {
+              "task": "Verify smooth motion at joints and listen for unusual sounds.",
+              "lastCompletedDate": ""
+            },
+            {
+              "task": "Check brake operation.",
+              "lastCompletedDate": ""
+            },
+            {
+              "task": "Visually inspect end effector mounting, tooling, and payload.",
+              "lastCompletedDate": ""
+            },
+            {
+              "task": "Check for loose connectors, hoses, and fittings.",
+              "lastCompletedDate": ""
+            }
+          ],
+          "Monthly": [
+            {
+              "task": "Check bolt tightness at joints and mounts. Torque if needed.",
+              "lastCompletedDate": "11/06/2023"
+            },
+            {
+              "task": "Inspect belts for tension and cracks. Adjust tension or replace if needed.",
+              "lastCompletedDate": "11/06/2023"
+            },
+            {
+              "task": "Verify accuracy at 3 points in work envelope. Calibrate if error is over specified tolerance.",
+              "lastCompletedDate": "11/06/2023"
+            },
+            {
+              "task": "Inspect cable condition and routing. Replace if damaged. Check routing is free of pinch points.",
+              "lastCompletedDate": "11/06/2023"
+            },
+            {
+              "task": "Inspect robot base, mounts, work cell safety features.",
+              "lastCompletedDate": "11/06/2023"
+            },
+            {
+              "task": "Clean robot exterior.",
+              "lastCompletedDate": "11/06/2023"
+            }
+          ],
+          "Annual": [
+            {
+              "task": "Perform checkout procedure for each joint's motion range and braking.",
+              "lastCompletedDate": "09/16/2023"
+            },
+            {
+              "task": "Replace rotary shaft seals if leaking.",
+              "lastCompletedDate": "09/16/2023"
+            },
+            {
+              "task": "Grease gear units at joints. Replace if excessive play or backlash.",
+              "lastCompletedDate": "09/16/2023"
+            },
+            {
+              "task": "Replace timing belts.",
+              "lastCompletedDate": "09/16/2023"
+            },
+            {
+              "task": "Replace lithium battery in controller.",
+              "lastCompletedDate": "09/16/2023"
+            },
+            {
+              "task": "Confirm correct firmware and back up programs.",
+              "lastCompletedDate": "09/16/2023"
+            },
+            {
+              "task": "Calibrate all joints and origins after replacements.",
+              "lastCompletedDate": "09/16/2023"
+            }
+          ],
+          "As needed": [
+            {
+              "task": "Back up programs and settings.",
+              "lastCompletedDate": "11/01/2023"
+            },
+            {
+              "task": "Perform calibration if accuracy error after events like collisions or replacements.",
+              "lastCompletedDate": "10/15/2023"
+            },
+            {
+              "task": "Replace any damaged components like covers, hoses, end effector.",
+              "lastCompletedDate": "08/24/2023"
+            }
+          ]
+        }
+      }
+    ],
+    "Focal #2": [
+      {
+        "equipment": "Focal #2 Equipment 1",
+        "description": "Description of Equipment 1 in Focal #2",
+        "tasks": {
+          "Daily": [
+            {
+              "task": "Of these devices must relieve all of the stored energy inside the machine.",
+              "lastCompletedDate": ""
+            },
+            {
+              "task": "Verify main air pressure is set at 90 psi, and empty water trap. If water is getting caught in the main regulator’s trap, then the upstream air is not dry enough. This problem must be resolved by installing drying equipment.",
+              "lastCompletedDate": ""
+            },
+            {
+              "task": "Check Grease on Dial Grippers and Slides, Station 2 Press posts, Station 2 Barrel Nest slide, Station 2 Dial gripper Open wedge Up/Down Slide, Station 3 Press posts. Station 4 Re-flatten Press slides. Oil or Grease slides via fittings if necessary.",
+              "lastCompletedDate": ""
+            },
+            {
+              "task": "Clean any debris of the inside of the machine and wipe down the machine with damp cloth with mild soap.",
+              "lastCompletedDate": ""
+            },
+            {
+              "task": "Check condition of pneumatic hoses and oiler lines. Replace immediately if ever damaged.",
+              "lastCompletedDate": ""
+            }
+          ],
+          "Monthly": [
+            {
+              "task": "Verify all flow controls are locked.",
+              "lastCompletedDate": "11/01/2023"
+            },
+            {
+              "task": "By hand, push and pull all pneumatic slides, cylinders, and grippers to make sure that they move smoothly and do not have excessive play. Replace any of the worn devices immediately.",
+              "lastCompletedDate": "11/01/2023"
+            },
+            {
+              "task": "Inspect stop bumpers and stop shocks, if worn or damaged replace immediately.",
+              "lastCompletedDate": "11/01/2023"
+            },
+            {
+              "task": "Clean and lube cylinder shafts.",
+              "lastCompletedDate": "11/01/2023"
+            },
+            {
+              "task": "Clean and lube gripper slides.",
+              "lastCompletedDate": "11/01/2023"
+            },
+            {
+              "task": "Clean and Inspect conveyor belts. Adjust tension as needed (see conveyor documentation)",
+              "lastCompletedDate": "11/01/2023"
+            }
+          ]
+        }
+      }
+    ],
+    "Focal #3": [
+      {
+        "equipment": "Focal #3 - BLOC02 - Press and S.T.P.",
+        "description": "Schumaker Manufacturing",
+        "tasks": {
+          "Daily": [
+            {
+              "task": "Verify that all the safety doors, safety gates and E-Stop button are working properly. All of these devices must relieve all of the stored energy inside the machine. ",
+              "lastCompletedDate": ""
+            },
+            {
+              "task": "Verify main air pressure is set at 90 psi, and empty water trap. If water is getting caught in the main regulator’s trap, then the upstream air is not dry enough. This problem must be resolved by installing drying equipment.",
+              "lastCompletedDate": ""
+            },
+            {
+              "task": "Check Grease on Dial Grippers and Slides, Station 2 Press posts, Station 2 Barrel Nest slide, Station 2 Dial gripper Open wedge Up/Down Slide, Station 3 Press posts. Station4 Re-flatten Press slides. Oil or Grease slides via fittings if necessary. ",
+              "lastCompletedDate": ""
+            },
+            {
+              "task": "Clean any debris of the inside of the machine and wipe down the machine with damp cloth with mild soap.",
+              "lastCompletedDate": ""
+            },
+            {
+              "task": "Check condition of pneumatic hoses and oiler lines. Replace immediately if ever damaged.",
+              "lastCompletedDate": ""
+            }
+          ],
+          "Monthly": [
+            {
+              "task": "Verify all flow controls are locked.",
+              "lastCompletedDate": "11/20/2023"
+            },
+            {
+              "task": "By hand, push and pull all pneumatic slides, cylinders, and grippers to make sure that they move smoothly and do not have excessive play. Replace any of the worn devices immediately.",
+              "lastCompletedDate": "11/20/2023"
+            },
+            {
+              "task": "Inspect stop bumpers and stop shocks, if worn or damaged replace immediately.",
+              "lastCompletedDate": "11/20/2023"
+            },
+            {
+              "task": "Clean and lube cylinder shafts.",
+              "lastCompletedDate": "11/20/2023"
+            },
+            {
+              "task": "Clean and lube gripper slides.",
+              "lastCompletedDate": "11/20/2023"
+            },
+            {
+              "task": "Clean and Inspect conveyor belts. Adjust tension as needed (see conveyor documentation).",
+              "lastCompletedDate": "11/20/2023"
+            }
+          ]
+        }
+      },
+      {
+        "equipment": "Focal #3 - BLOC02A - Cut and Chamfer",
+        "description": "Schumaker Manufacturing",
+        "tasks": {
+          "Daily": [
+            {
+              "task": "Verify that all the safety doors, safety gates and E-Stop button are working properly.",
+              "lastCompletedDate": ""
+            },
+            {
+              "task": "Verify main air pressure is set at 90 psi, and empty water trap.",
+              "lastCompletedDate": ""
+            },
+            {
+              "task": "Verify that oil is present in tank of saw oiling system.",
+              "lastCompletedDate": ""
+            },
+            {
+              "task": "Clean any debris of the inside of the machine and wipe down the machine with damp cloth with mild soap.",
+              "lastCompletedDate": ""
+            },
+            {
+              "task": "Check condition of pneumatic hoses and oiler lines. Replace immediately if ever damaged.",
+              "lastCompletedDate": ""
+            },
+            {
+              "task": "Check chamfer head ways are wet with oil",
+              "lastCompletedDate": ""
+            }
+          ],
+          "Monthly": [
+            {
+              "task": "Verify all flow controls are locked.",
+              "lastCompletedDate": "10/30/2023"
+            },
+            {
+              "task": "By hand, push and pull all pneumatic slides, cylinders, and grippers to make sure that they move smoothly and do not have excessive play. Replace any of the worn devices immediately.",
+              "lastCompletedDate": "10/30/2023"
+            },
+            {
+              "task": "Inspect stop bumpers and stop shocks, if worn or damaged replace immediately.",
+              "lastCompletedDate": "10/30/2023"
+            },
+            {
+              "task": "Clean and lube cylinder shafts.",
+              "lastCompletedDate": "10/30/2023"
+            },
+            {
+              "task": "Clean and lube gripper slides.",
+              "lastCompletedDate": "10/30/2023"
+            },
+            {
+              "task": "Clean and grease any THK rails and bearing blocks.",
+              "lastCompletedDate": "10/30/2023"
+            },
+            {
+              "task": "Grease the two Zirk Fittings for the Tube Chamfer Clamp",
+              "lastCompletedDate": "10/30/2023"
+            }
+          ]
+        }
+      },
+      {
+        "equipment": "Focal #3 - BLOC02B - Wash and Anneal",
+        "description": "Schumaker Manufacturing",
+        "tasks": {
+          "Daily": [
+            {
+              "task": "Clean Area at part stops between through beam sensors on the Conveyors.",
+              "lastCompletedDate": ""
+            },
+            {
+              "task": "Verify that all the safety doors, safety gates and E-Stop button are working properly.",
+              "lastCompletedDate": ""
+            },
+            {
+              "task": "Verify main air pressure is set at 90 psi, and empty water trap.",
+              "lastCompletedDate": ""
+            },
+            {
+              "task": "Check Lifts on Dial 2 for lift force less than 5 lbs. Oil or Grease THK slides via Zerk fittings if necessary.",
+              "lastCompletedDate": ""
+            },
+            {
+              "task": "Clean any debris of the inside of the machine and wipe down the machine with damp cloth with mild soap.",
+              "lastCompletedDate": ""
+            },
+            {
+              "task": "Check condition of pneumatic hoses and oiler lines. Replace immediately if ever damaged.",
+              "lastCompletedDate": ""
+            },
+            {
+              "task": "Check Soap Quantity in Tank",
+              "lastCompletedDate": ""
+            }
+          ],
+          "Monthly": [
+            {
+              "task": "Verify all flow controls are locked.",
+              "lastCompletedDate": "10/28/2023"
+            },
+            {
+              "task": "By hand, push and pull all pneumatic slides, cylinders, and grippers to make sure that they move smoothly and do not have excessive play. Replace any of the worn devices immediately.",
+              "lastCompletedDate": "10/28/2023"
+            },
+            {
+              "task": "Check The filters for the Wash, Rinse1, Rinse 2 and quench Tanks, Located under Dial 1 Table.",
+              "lastCompletedDate": "10/28/2023"
+            },
+            {
+              "task": "Inspect stop bumpers and stop shocks, if worn or damaged replace immediately.",
+              "lastCompletedDate": "10/28/2023"
+            },
+            {
+              "task": "Clean and lube cylinder shafts.",
+              "lastCompletedDate": "10/28/2023"
+            },
+            {
+              "task": "Clean and lube gripper slides.",
+              "lastCompletedDate": "10/28/2023"
+            },
+            {
+              "task": "Clean and grease any THK rails and bearing blocks.",
+              "lastCompletedDate": "10/28/2023"
+            },
+            {
+              "task": "Clean and Inspect conveyor belts. Adjust tension as needed (see conveyor documentation).",
+              "lastCompletedDate": "10/28/2023"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

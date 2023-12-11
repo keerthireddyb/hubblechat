@@ -1,0 +1,71 @@
+@import './pdfjs_web_mixins';
+@import '../../vars';
+@import './mixins';
+
+.#{$prefix}--document-preview-pdf-viewer {
+  display: flex;
+
+  // Take up entire width, but do not expand beyond it
+  width: 100%;
+  max-width: 100%;
+
+  overflow: auto;
+}
+
+.#{$prefix}--document-preview-pdf-viewer__wrapper {
+  position: relative;
+
+  // This combination should force all browsers to
+  // allow full scrolling of PDFs when zoomed in
+  justify-content: safe center;
+  min-width: min-content;
+
+  // Center when smaller than the window width
+  margin-left: auto;
+  margin-right: auto;
+
+  // Prevent bottom whitespace from displaying
+  line-height: 0;
+
+  @include pdfjsTextLayer;
+}
+
+.#{$prefix}--document-preview-pdf-viewer__canvas {
+  transform-origin: left top 0px;
+}
+
+.#{$prefix}--document-preview-pdf-viewer__text {
+  transform-origin: left top 0px;
+}
+
+.#{$prefix}--document-preview-pdf-viewer-highlight {
+  position: absolute;
+  transform-origin: left top 0px;
+  top: 0;
+  left: 0;
+}
+
+.#{$prefix}--document-preview-pdf-viewer-highlight__item {
+  box-sizing: content-box;
+  margin: -3px;
+  padding: 1px 1px 0;
+  position: absolute;
+  opacity: 20%;
+  background: darken(saturate($highlight, 50%), 40%);
+}
+
+.#{$prefix}--document-preview-pdf-viewer-highlight__item--active {
+  position: absolute;
+  opacity: 35%;
+  background: darken(saturate($highlight, 50%), 50%);
+  border: 2px solid darken(saturate($highlight, 50%), 50%);
+  margin: -3px;
+  padding: 1px 1px 0px;
+  box-sizing: content-box;
+}
+
+// Override dynamic styles .category-<facetId>.highlight
+.#{$prefix}--active {
+  background: unset !important;
+  opacity: 100%;
+}

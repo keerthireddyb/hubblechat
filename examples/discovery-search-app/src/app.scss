@@ -1,0 +1,344 @@
+@charset "utf-8";
+@import '~carbon-components/scss/globals/grid/grid';
+@import '~carbon-components/scss/components/tabs/tabs';
+@import '~carbon-components/scss/components/loading/loading';
+@import './overrides.scss';
+@import '../../../node_modules/@chatscope/chat-ui-kit-styles/themes/default/main.scss';
+
+$search-app-background-color: $gray-10;
+$nav-toolbar-background-color: $black-100;
+$nav-toolbar-height: 42px;
+
+* {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500 !important;
+}
+
+.root {
+  background-color: $search-app-background-color;
+  min-height: 100vh;
+}
+
+h1 {
+  font-weight: 400;
+}
+
+.#{$prefix}--search-app__nav-toolbar {
+  background-color: $nav-toolbar-background-color;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: $spacing-04;
+
+  p {
+    @include type-style('productive-heading-01');
+  }
+
+  .#{$prefix}--btn {
+    background-color: $nav-toolbar-background-color;
+    min-height: 1rem;
+  }
+}
+
+// Search Page styles
+.#{$prefix}--search-app__top-container {
+  background-color: $search-app-background-color;
+  max-width: 1200px;
+  padding: $spacing-06 $spacing-06 0 $spacing-06;
+}
+
+.#{$prefix}--search-app__facets-and-results {
+  justify-content: space-between;
+  padding: $spacing-05;
+
+  .#{$prefix}--search-facet__facet__show-more-modal {
+    .#{$prefix}--btn {
+      padding-left: $spacing-05;
+    }
+  }
+
+  .#{$prefix}--btn {
+    padding-left: 0;
+
+    &:hover {
+      background-color: transparent;
+      border: none;
+      text-decoration: underline;
+    }
+
+    &:active,
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+.#{$prefix}--list-box__menu {
+  z-index: 1;
+}
+
+// Chatbot Page styles
+.chatbot-container {
+  display: flex;
+  width: 100%;
+  height: 85vh;
+  flex-direction: column;
+  padding: 10px 15px;
+  font-size: 20px;
+}
+
+.dropdown-container {
+  flex: 0 0 10%;
+}
+
+.cs-main-container {
+  flex: 1;
+}
+
+.cs-message__html-content {
+  font-size: 20px;
+}
+
+.cs-typing-indicator__indicator .cs-typing-indicator__dot {
+  background-color: #b3b3b3;
+}
+
+.chatbot-widget__container {
+  margin-top: 10px !important;
+}
+
+.chatbot-widget__container .cs-message__content {
+  background-color: white !important;
+  padding: 0;
+  border: 1px solid #e0e0e0;
+  height: max-content;
+  margin-left: 50px;
+
+  .chatbot-widget__title {
+    display: flex;
+    color: black;
+    font-size: 14px;
+    height: max-content;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  li {
+    font-size: 13px;
+    color: #0f62fe;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: max-content;
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+    padding: 15px 20px;
+    border-bottom: 1px solid #e0e0e0;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+}
+
+button.cs-button--attachment {
+  color: #b3b3b3;
+}
+
+button.cs-button--send {
+  color: #737373;
+}
+
+div.ps__thumb-y {
+  background-color: #b3b3b3;
+}
+
+.cs-message-input__content-editor-wrapper,
+.cs-message-input__content-editor {
+  background-color: white !important;
+  border: 1px solid #e0e0e0;
+}
+
+.cs-message__content {
+  border-radius: 0.7rem !important;
+}
+
+.chatbot-message__bot .cs-message__content {
+  background-color: #e8e8e9;
+}
+
+.chatbot-message__user div.cs-message__content {
+  background-color: #ffe100;
+}
+
+.#{$prefix}--search-app__facets-and-results__facets,
+.#{$prefix}--search-app__facets-and-results__results {
+  max-height: 100vh;
+  overflow: auto;
+  padding-bottom: $spacing-08;
+}
+
+.#{$prefix}--search-app__facets-and-results__facets {
+  padding-left: 0;
+
+  .#{$prefix}--checkbox-label-text {
+    font-size: 0.875rem;
+  }
+}
+
+.#{$prefix}--multi-select {
+  background-color: white;
+  min-width: 16rem;
+
+  @media (max-width: 1100px) {
+    min-width: auto;
+  }
+}
+
+.#{$prefix}--checkbox-label::before,
+.#{$prefix}--radio-button__appearance {
+  background-color: white;
+}
+
+.#{$prefix}--search-app__facets-and-results__results {
+  padding-right: 0;
+  padding-bottom: 20px;
+
+  @media (max-width: 672px) {
+    padding-left: 0;
+  }
+}
+
+.#{$prefix}--search-result {
+  box-shadow: none;
+}
+
+.#{$prefix}--pagination {
+  background-color: white;
+  bottom: 0;
+  position: fixed;
+}
+
+// Document Preview Page styles
+.#{$prefix}--search-app--preview-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+
+  .#{$prefix}--search-app__nav-toolbar,
+  .#{$prefix}--preview-toolbar {
+    height: $nav-toolbar-height;
+    width: 100%;
+    z-index: 3;
+  }
+
+  .#{$prefix}--search-app__nav-toolbar {
+    top: 0;
+  }
+
+  .#{$prefix}--preview-toolbar {
+    top: $nav-toolbar-height;
+  }
+
+  .#{$prefix}--loading-overlay {
+    background-color: unset;
+  }
+
+  .#{$prefix}--search-app__tabs {
+    flex: 0 0 auto;
+  }
+
+  .#{$prefix}--search-app__tabs--hidden {
+    display: none;
+  }
+
+  .#{$prefix}--search-app__content {
+    min-height: 0;
+  }
+}
+.top-bar {
+  background-color: black;
+  padding: 10px;
+  text-align: left;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: auto;
+  z-index: 10;
+
+  img {
+    height: 50px;
+  }
+}
+
+.sidebar {
+  width: 200px;
+  position: fixed;
+  height: 100%;
+}
+
+.sidebar-link {
+  display: block;
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+
+  &:hover {
+    background-color: lightgray;
+  }
+}
+a.sidebar-link.active {
+  background-color: lightgray;
+}
+
+.active-link {
+  background-color: gray;
+}
+
+.main-content {
+  flex-grow: 1;
+  margin-left: 200px;
+  margin-top: 74px;
+  z-index: -1;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; // Adjust as needed
+}
+
+.discovery-button {
+  display: inline-block;
+  font-size: 12px;
+  color: #131111;
+  background-color: #ffea00;
+  border: 1px solid #000000;
+  // border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  padding: 10px 20px;
+  position: fixed;
+  top: 7.5%;
+  // left: 3px;
+  right: 0px;
+  &:hover {
+    background-color: #ffea00;
+    color: #131111;
+  }
+}
+
+.back-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: #000;
+  text-decoration: none;
+}

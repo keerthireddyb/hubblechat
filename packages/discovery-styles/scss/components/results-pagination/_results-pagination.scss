@@ -1,0 +1,10 @@
+.#{$prefix}--pagination__page-size-selector--hidden {
+  .#{$prefix}--unstable-pagination__left {
+    padding: 0;
+
+    label,
+    .#{$prefix}--select {
+      display: none;
+    }
+  }
+}

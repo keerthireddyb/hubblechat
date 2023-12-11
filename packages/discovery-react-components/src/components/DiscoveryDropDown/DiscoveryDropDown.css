@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.DiscoveryDropDown {
+  background-color: #f4f4f4;
+}
+
+.collapsible-trigger {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.collapsible-button {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.Collapsible {
+  margin-bottom: 10px;
+}
+
+.Collapsible__contentInner {
+  /* padding: 10px; */
+  border: 1px solid #ddd;
+  border-top: none;
+  border-radius: 0 0 5px 5px;
+}
+
+body,
+h1,
+h2,
+p,
+select,
+button {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
+.custom-h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.tear-sheet {
+  width: 100%;
+  max-width: 2000px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: left;
+}
+
+/* Discovery maintenance heading */
+.tear-sheet h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  margin-left: 8px;
+  padding-top: 3px;
+  color: #000000;
+}
+
+.header-container {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+}
+
+.hubbell-logo {
+  margin-right: 5px;
+  width: 70px;
+  height: 40px;
+}
+
+/* box for steps */
+.step {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 25px;
+  background-color: #f7f7f7;
+  min-height: 200px;
+  overflow: auto;
+}
+
+.DiscoveryDropDown .tear-sheet .step h4 {
+  font-size: 0.9rem;
+  font-weight: 600 !important;
+}
+
+.tear-sheet .step .machine_label {
+  font-weight: 600 !important;
+}
+
+.tear-sheet .step .facility_label {
+  font-weight: 600 !important;
+}
+
+select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+/* next & previous */
+button {
+  font-family: 'Montserrat', sans-serif;
+  display: inline-block;
+  padding: 10px 40px;
+  background-color: #ffe100;
+  color: #000000;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-left: 5px;
+}
+
+.step:last-child button {
+  font-family: 'Montserrat', sans-serif;
+  float: right;
+  margin-right: 0;
+}
+
+.error-message {
+  padding-top: 20px;
+  color: red;
+}
+
+.clearfix::after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+.step:first-child button:last-child {
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 20px;
+}
+
+.renderTaskList h4 {
+  /* font-size: 0.8rem; */
+  font-weight: 600 !important;
+  line-height: 35px;
+}
+
+.renderTaskList .Collapsible__contentInner ul {
+  list-style: auto;
+  font-size: 0.9rem;
+  line-height: 20px;
+  /*padding-left: 20px;*/
+}
+
+/*Task list with use of table*/
+.renderTaskList .Collapsible__contentInner .taskTable {
+  width: 100%;
+
+  .taskMainHead {
+    background-color: #E6E6E6;
+
+    .taskHead {
+      width: 80%;
+      padding-left: 10px;
+    }
+  }
+
+  .taskRow {
+    border: 1px solid #ccc;
+    height: 38px;
+    line-height: 25px;
+    font-size: 0.9rem;
+
+    .taskContent {
+      display: flex;
+      padding-left: 10px;
+      width: 95%;
+      padding-top: 7px;
+      padding-bottom: 7px;
+    }
+
+    .taskCompletedDate {
+      padding-left: 5px;
+    }
+  }
+}

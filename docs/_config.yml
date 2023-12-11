@@ -1,0 +1,10 @@
+title: Discovery Components Docs
+description: Discovery Components
+remote_theme: pmarsceill/just-the-docs
+search_enabled: true
+repo_code_url: "https://github.com/watson-developer-cloud/discovery-components"
+aux_links:
+  "Discovery Components on GitHub":
+    - "//github.com/watson-developer-cloud/discovery-components"
+
+theme: jekyll-theme-cayman

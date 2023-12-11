@@ -1,0 +1,208 @@
+{
+  "Lincoln": {
+    "Focal #1": [
+      {
+        "equipment": "Focal #1 Press & STP - section #3",
+        "description": "Schumaker 6087 2016 Manufacturing",
+        "tasks": {
+          "Daily": [
+            "Verify that all the safety doors, safety gates and E-Stop button are working properly. All of these devices must relieve all of the stored energy inside the machine.",
+            "Verify main air pressure is set at 90 psi, and empty water trap. If water is getting caught in the main regulator's trap, then the upstream air is not dry enough. This problem must be resolved by installing drying equipment.",
+            "Check Grease on Dial Grippers and Slides, Station 2 Press posts, Station 2 Barrel Nest slide, Station 2 Dial gripper Open wedge Up/Down Slide, Station 3 Press posts. Station 4 Re-flatten Press slides. Oil or Grease slides via fittings if necessary.",
+            "Clean any debris of the inside of the machine and wipe down the machine with damp cloth with mild soap.",
+            "Check condition of pneumatic hoses and oiler lines. Replace immediately if ever damaged."
+          ],
+          "Monthly": [
+            "Verify all flow controls are locked.",
+            "By hand, push and pull all pneumatic slides, cylinders, and grippers to make sure that they move smoothly and do not have excessive play. Replace any of the worn devices immediately.",
+            "Inspect stop bumpers and stop shocks, if worn or damaged replace immediately.",
+            "Clean and lube cylinder shafts.",
+            "Clean and lube gripper slides.",
+            "Clean and Inspect conveyor belts. Adjust tension as needed (see conveyor documentation)."
+          ]
+        }
+      },
+      {
+        "equipment": "Focal #1 Cut/Chamfer - section #1",
+        "description": "Schumaker 6089 2016 Manufacturing",
+        "tasks": {
+          "Daily": [
+            "Verify that all the safety doors, safety gates and E-Stop button are working properly. All of these devices must relieve all of the stored energy inside the machine. ",
+            "Verify main air pressure is set at 90 psi, and empty water trap. If water is getting caught in the main regulator’s trap, then the upstream air is not dry enough. This problem must be resolved by installing drying equipment. ",
+            "Verify that oil is present in tank of saw oiling system.",
+            "Clean any debris of the inside of the machine and wipe down the machine with damp cloth with mild soap.",
+            "Check condition of pneumatic hoses and oiler lines. Replace immediately if ever damaged.",
+            "Check chamfer head ways are wet with oil."
+          ],
+          "Monthly": [
+            "Verify all flow controls are locked.",
+            "By hand, push and pull all pneumatic slides, cylinders, and grippers to make sure that they move smoothly and do not have excessive play. Replace any of the worn devices immediately.",
+            "Inspect stop bumpers and stop shocks, if worn or damaged replace immediately.",
+            "Clean and lube cylinder shafts.",
+            "Clean and lube gripper slides.",
+            "Clean and grease any THK rails and bearing blocks.",
+            "Clean and Inspect conveyor belts. Adjust tension as needed (see conveyor documentation)",
+            "Grease the two Zirk Fittings for the Tube Chamfer Clamp."
+          ]
+        }
+      },
+      {
+        "equipment": "Focal #1 Wash & Anneal - section #2",
+        "description": "Schumaker 6088 2016 Manufacturing",
+        "tasks": {
+          "Daily": [
+            "Clean area at part stops between through beam sensors on the Conveyors.",
+            "Verify that all the safety doors, safety gates and E-Stop button are working properly. All of these devices must relieve all of the stored energy inside the machine.",
+            "Verify main air pressure is set at 90 psi, and empty water trap. If water is getting caught in the main regulator’s trap, then the upstream air is not dry enough. This problem must be resolved by installing drying equipment.",
+            "Check Lifts on Dial 2 for lift force less than 5 lbs. Oil or Grease THK slides via Zirk fittings if necessary.",
+            "Clean any debris of the inside of the machine and wipe down the machine with damp cloth with mild soap.",
+            "Check condition of pneumatic hoses and oiler lines. Replace immediately if ever damaged.",
+            "Check Soap Quantity in Tank"
+          ],
+          "Monthly": [
+            "Verify all flow controls are locked.",
+            "By hand, push and pull all pneumatic slides, cylinders, and grippers to make sure that they move smoothly and do not have excessive play. Replace any of the worn devices immediately.",
+            "Check the filters for the Wash, Rinse1, Rinse 2 and quench Tanks, Located under Dial 1 Table.",
+            "Inspect stop bumpers and stop shocks, if worn or damaged replace immediately.",
+            "Clean and lube cylinder shafts.",
+            "Clean and lube gripper slides.",
+            "Clean and grease any THK rails and bearing blocks.",
+            "Clean and Inspect conveyor belts. Adjust tension as needed (see conveyor documentation)."
+          ]
+        }
+      },
+      {
+        "equipment": "Focal #1 Robot",
+        "description": "Epson Robot",
+        "tasks": {
+          "Daily": [
+            "Visually inspect robot exterior for damage, check emergency stops.",
+            "Verify smooth motion at joints and listen for unusual sounds.",
+            "Check brake operation.",
+            "Visually inspect end effector mounting, tooling, and payload.",
+            "Check for loose connectors, hoses, and fittings."
+          ],
+          "Monthly": [
+            "Check bolt tightness at joints and mounts. Torque if needed.",
+            "Inspect belts for tension and cracks. Adjust tension or replace if needed.",
+            "Verify accuracy at 3 points in work envelope. Calibrate if error is over specified tolerance.",
+            "Inspect cable condition and routing. Replace if damaged. Check routing is free of pinch points.",
+            "Inspect robot base, mounts, work cell safety features.",
+            "Clean robot exterior.   "
+          ],
+          "Annual": [
+            "Perform checkout procedure for each joint's motion range and braking.",
+            "Replace rotary shaft seals if leaking.",
+            "Grease gear units at joints. Replace if excessive play or backlash.",
+            "Replace timing belts.",
+            "Replace lithium battery in controller.",
+            "Confirm correct firmware and back up programs.",
+            "Calibrate all joints and origins after replacements."
+          ],
+          "As needed": [
+            "Back up programs and settings.",
+            "Perform calibration if accuracy error after events like collisions or replacements.",
+            "Replace any damaged components like covers, hoses, end effector."
+          ]
+        }
+      }
+    ],
+
+    "Focal #2": [
+      {
+        "equipment": "Focal #2 Equipment 1",
+        "description": "Description of Equipment 1 in Focal #2",
+        "tasks": {
+          "Daily": [
+            "Of these devices must relieve all of the stored energy inside the machine.",
+            "Verify main air pressure is set at 90 psi, and empty water trap. If water is getting caught in the main regulator’s trap, then the upstream air is not dry enough. This problem must be resolved by installing drying equipment.",
+            "Check Grease on Dial Grippers and Slides, Station 2 Press posts, Station 2 Barrel Nest slide, Station 2 Dial gripper Open wedge Up/Down Slide, Station 3 Press posts. Station 4 Re-flatten Press slides. Oil or Grease slides via fittings if necessary.",
+            "Clean any debris of the inside of the machine and wipe down the machine with damp cloth with mild soap.",
+            "Check condition of pneumatic hoses and oiler lines. Replace immediately if ever damaged."
+          ],
+          "Monthly": [
+            "Verify all flow controls are locked.",
+            "By hand, push and pull all pneumatic slides, cylinders, and grippers to make sure that they move smoothly and do not have excessive play. Replace any of the worn devices immediately.",
+            "Inspect stop bumpers and stop shocks, if worn or damaged replace immediately.",
+            "Clean and lube cylinder shafts.",
+            "Clean and lube gripper slides.",
+            "Clean and Inspect conveyor belts. Adjust tension as needed (see conveyor documentation)"
+          ]
+        }
+      }
+    ],
+
+    "Focal #3": [
+      {
+        "equipment": "Focal #3 - BLOC02 - Press and S.T.P.",
+        "description": "Schumaker Manufacturing",
+        "tasks": {
+          "Daily": [
+            "Verify that all the safety doors, safety gates and E-Stop button are working properly. All of these devices must relieve all of the stored energy inside the machine. ",
+            "Verify main air pressure is set at 90 psi, and empty water trap. If water is getting caught in the main regulator’s trap, then the upstream air is not dry enough. This problem must be resolved by installing drying equipment.",
+            "Check Grease on Dial Grippers and Slides, Station 2 Press posts, Station 2 Barrel Nest slide, Station 2 Dial gripper Open wedge Up/Down Slide, Station 3 Press posts. Station4 Re-flatten Press slides. Oil or Grease slides via fittings if necessary. ",
+            "Clean any debris of the inside of the machine and wipe down the machine with damp cloth with mild soap.",
+            "Check condition of pneumatic hoses and oiler lines. Replace immediately if ever damaged."
+          ],
+          "Monthly": [
+            "Verify all flow controls are locked.",
+            "By hand, push and pull all pneumatic slides, cylinders, and grippers to make sure that they move smoothly and do not have excessive play. Replace any of the worn devices immediately.",
+            "Inspect stop bumpers and stop shocks, if worn or damaged replace immediately.",
+            "Clean and lube cylinder shafts.",
+            "Clean and lube gripper slides.",
+            "Clean and Inspect conveyor belts. Adjust tension as needed (see conveyor documentation)."
+          ]
+        }
+      },
+
+      {
+        "equipment": "Focal #3 - BLOC02A - Cut and Chamfer",
+        "description": "Schumaker Manufacturing",
+        "tasks": {
+          "Daily": [
+            "Verify that all the safety doors, safety gates and E-Stop button are working properly.",
+            "Verify main air pressure is set at 90 psi, and empty water trap.",
+            "Verify that oil is present in tank of saw oiling system.",
+            "Clean any debris of the inside of the machine and wipe down the machine with damp cloth with mild soap.",
+            "Check condition of pneumatic hoses and oiler lines. Replace immediately if ever damaged.",
+            "Check chamfer head ways are wet with oil"
+          ],
+          "Monthly": [
+            "Verify all flow controls are locked.",
+            "By hand, push and pull all pneumatic slides, cylinders, and grippers to make sure that they move smoothly and do not have excessive play. Replace any of the worn devices immediately.",
+            "Inspect stop bumpers and stop shocks, if worn or damaged replace immediately.",
+            "Clean and lube cylinder shafts.",
+            "Clean and lube gripper slides.",
+            "Clean and grease any THK rails and bearing blocks.",
+            "Grease the two Zirk Fittings for the Tube Chamfer Clamp"
+          ]
+        }
+      },
+      {
+        "equipment": "Focal #3 - BLOC02B - Wash and Anneal",
+        "description": "Schumaker Manufacturing",
+        "tasks": {
+          "Daily": [
+            "Clean Area at part stops between through beam sensors on the Conveyors.",
+            "Verify that all the safety doors, safety gates and E-Stop button are working properly.",
+            "Verify main air pressure is set at 90 psi, and empty water trap.",
+            "Check Lifts on Dial 2 for lift force less than 5 lbs. Oil or Grease THK slides via Zerk fittings if necessary.",
+            "Clean any debris of the inside of the machine and wipe down the machine with damp cloth with mild soap.",
+            "Check condition of pneumatic hoses and oiler lines. Replace immediately if ever damaged.",
+            "Check Soap Quantity in Tank"
+          ],
+          "Monthly": [
+            "Verify all flow controls are locked.",
+            "By hand, push and pull all pneumatic slides, cylinders, and grippers to make sure that they move smoothly and do not have excessive play. Replace any of the worn devices immediately.",
+            "Check The filters for the Wash, Rinse1, Rinse 2 and quench Tanks, Located under Dial 1 Table.",
+            "Inspect stop bumpers and stop shocks, if worn or damaged replace immediately.",
+            "Clean and lube cylinder shafts.",
+            "Clean and lube gripper slides.",
+            "Clean and grease any THK rails and bearing blocks.",
+            "Clean and Inspect conveyor belts. Adjust tension as needed (see conveyor documentation)."
+          ]
+        }
+      }
+    ]
+  }
+}
